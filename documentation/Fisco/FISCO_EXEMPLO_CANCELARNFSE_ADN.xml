@@ -1,0 +1,16 @@
+
+<CancelarNfseEnvio>
+	<Pedido>
+		<InfPedidoCancelamento>
+			<IdentificacaoNfse>
+				<Numero>1</Numero>
+				<CpfCnpj>
+					<Cpf>934.954.205-68</Cpf>
+				</CpfCnpj>
+				<InscricaoMunicipal>001</InscricaoMunicipal>
+				<CodigoMunicipio>9999999</CodigoMunicipio>
+			</IdentificacaoNfse>
+			<CodigoCancelamento>1</CodigoCancelamento>
+		</InfPedidoCancelamento>
+	</Pedido>
+</CancelarNfseEnvio>

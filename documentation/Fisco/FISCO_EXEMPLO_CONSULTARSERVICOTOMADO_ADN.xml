@@ -1,0 +1,28 @@
+<ConsultarNfseServicoTomadoEnvio>
+	<ConsultarNfseEnvio>
+		<Consulente>
+			<CpfCnpj>
+				<Cnpj>283.449.038-40</Cnpj>                                         
+			</CpfCnpj>
+			<InscricaoMunicipal>001</InscricaoMunicipal>                            
+		</Consulente>
+		<NumeroNfse>111</NumeroNfse>
+		<PeriodoEmissao>
+			<DataInicial>01/01/2017</DataInicial>
+			<DataFinal>30/06/2017</DataFinal>
+		</PeriodoEmissao>
+		<Prestador>
+			<CpfCnpj>
+				<Cnpj>051.286.218-47</Cnpj>                                          
+			</CpfCnpj>
+			<InscricaoMunicipal>171</InscricaoMunicipal>                     
+		</Prestador>
+		<Tomador>
+			<CpfCnpj>
+				<Cpf>307.220.858-18</Cpf>                                              
+			</CpfCnpj>
+			<InscricaoMunicipal>002</InscricaoMunicipal>                            
+		</Tomador>
+		<Pagina>1</Pagina>                                                 
+	</ConsultarNfseEnvio>
+</ConsultarNfseServicoTomadoEnvio>

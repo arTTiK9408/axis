@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<ConsultarNfseFaixaEnvio>
+	<Prestador>
+		<CpfCnpj>
+			<Cpf>934.954.205-68</Cpf>
+		</CpfCnpj>
+		<InscricaoMunicipal>001</InscricaoMunicipal>
+	</Prestador>
+	<Faixa>
+		<NumeroNfseInicial>01</NumeroNfseInicial>
+		<NumeroNfseFinal>50</NumeroNfseFinal>
+	</Faixa>
+	<Pagina>1</Pagina>
+</ConsultarNfseFaixaEnvio>

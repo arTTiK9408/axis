@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<ConsultarLoteRpsEnvio>
+	<Prestador>
+		<CpfCnpj>
+			<Cpf>934.954.205-68</Cpf>
+		</CpfCnpj>
+		<InscricaoMunicipal>001</InscricaoMunicipal>
+	</Prestador>
+	<Protocolo>F321C04F-8F9D-4B3D-99EE-B70CED211946</Protocolo>
+</ConsultarLoteRpsEnvio>
+

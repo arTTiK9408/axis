@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SubstituirNfseEnvio xmlns="http://www.abrasf.org.br/nfse.xsd"
+                     xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="http://www.abrasf.org.br/nfse.xsd  ">
+	<SubstituicaoNfse>
+		<Pedido>
+			<InfPedidoCancelamento Id="">
+				<IdentificacaoNfse>
+					<Numero></Numero>
+					<CpfCnpj>
+						<Cnpj></Cnpj>
+					</CpfCnpj>
+					<InscricaoMunicipal></InscricaoMunicipal>
+					<CodigoMunicipio></CodigoMunicipio>
+				</IdentificacaoNfse>
+				<CodigoCancelamento></CodigoCancelamento>
+			</InfPedidoCancelamento>
+			<ds:Signature Id="">
+				<ds:SignedInfo Id="">
+					<ds:CanonicalizationMethod Algorithm="http://tempuri.org"/>
+					<ds:SignatureMethod Algorithm="http://tempuri.org">
+						<ds:HMACOutputLength></ds:HMACOutputLength>
+					</ds:SignatureMethod>
+					<ds:Reference Id="idvalue8"
+					              Type="http://tempuri.org"
+					              URI="http://tempuri.org">
+						<ds:Transforms>
+							<ds:Transform Algorithm="http://tempuri.org">
+								<ds:XPath>ds:XPath</ds:XPath>
+							</ds:Transform>
+						</ds:Transforms>
+						<ds:DigestMethod Algorithm="http://tempuri.org"/>
+						<ds:DigestValue>MA==</ds:DigestValue>
+					</ds:Reference>
+				</ds:SignedInfo>
+				<ds:SignatureValue Id="idvalue9">MA==</ds:SignatureValue>
+				<ds:KeyInfo Id="">
+					<ds:KeyName>ds:KeyName</ds:KeyName>
+				</ds:KeyInfo>
+				<ds:Object Encoding="http://tempuri.org"
+				           Id=""
+				           MimeType="">
+					<ds:SPKIData>
+						<ds:SPKISexp>MA==</ds:SPKISexp>
+					</ds:SPKIData>
+				</ds:Object>
+			</ds:Signature>
+		</Pedido>
+		<Rps>
+			<InfDeclaracaoPrestacaoServico>
+				<Rps Id="">
+					<IdentificacaoRps>
+						<Numero></Numero>
+						<Serie></Serie>
+						<Tipo></Tipo>
+					</IdentificacaoRps>
+					<DataEmissao></DataEmissao>
+					<Status></Status>
+				</Rps>
+				<Competencia></Competencia>
+				<Servico>
+					<Valores>
+						<ValorServicos></ValorServicos>
+						<ValorDeducoes></ValorDeducoes>
+						<ValorPis></ValorPis>
+						<ValorCofins></ValorCofins>
+						<ValorInss></ValorInss>
+						<ValorIr></ValorIr>
+						<ValorCsll></ValorCsll>
+						<OutrasRetencoes></OutrasRetencoes>
+						<ValorIss></ValorIss>
+						<Aliquota></Aliquota>
+						<DescontoIncondicionado></DescontoIncondicionado>
+						<DescontoCondicionado></DescontoCondicionado>
+					</Valores>
+					<IssRetido></IssRetido>
+					<ResponsavelRetencao></ResponsavelRetencao>
+					<ItemListaServico></ItemListaServico>
+					<CodigoCnae></CodigoCnae>
+					<CodigoTributacaoMunicipio></CodigoTributacaoMunicipio>
+					<CodigoNbs></CodigoNbs>
+					<Discriminacao></Discriminacao>
+					<CodigoMunicipio></CodigoMunicipio>
+					<CodigoPais></CodigoPais>
+					<ExigibilidadeISS></ExigibilidadeISS>
+					<MunicipioIncidencia></MunicipioIncidencia>
+					<NumeroProcesso></NumeroProcesso>
+				</Servico>
+				<Prestador>
+					<CpfCnpj>
+						<Cnpj></Cnpj>
+					</CpfCnpj>
+					<InscricaoMunicipal></InscricaoMunicipal>
+				</Prestador>
+				<Tomador>
+					<IdentificacaoTomador>
+						<CpfCnpj>
+							<Cpf></Cpf>
+						</CpfCnpj>
+						<InscricaoMunicipal></InscricaoMunicipal>
+					</IdentificacaoTomador>
+					<RazaoSocial></RazaoSocial>
+					<Endereco>
+						<Endereco></Endereco>
+						<Numero></Numero>
+						<Complemento></Complemento>
+						<Bairro></Bairro>
+						<CodigoMunicipio></CodigoMunicipio>
+						<Uf></Uf>
+						<CodigoPais></CodigoPais>
+						<Cep></Cep>
+					</Endereco>
+					<Contato>
+						<Telefone></Telefone>
+						<Email></Email>
+					</Contato>
+				</Tomador>
+				<ConstrucaoCivil>
+					<CodigoObra></CodigoObra>
+					<Art></Art>
+				</ConstrucaoCivil>
+				<RegimeEspecialTributacao></RegimeEspecialTributacao>
+				<OptanteSimplesNacional></OptanteSimplesNacional>
+				<IncentivoFiscal></IncentivoFiscal>
+				<IBSCBS>
+					<finNFSe></finNFSe>
+					<indFinal></indFinal>
+					<cIndOp></cIndOp>
+					<indDest></indDest>
+					<valores>
+						<trib>
+							<gIBSCBS>
+								<CST></CST>
+								<cClassTrib></cClassTrib>
+							</gIBSCBS>
+						</trib>
+					</valores>
+				</IBSCBS>
+			</InfDeclaracaoPrestacaoServico>
+		</Rps>
+	</SubstituicaoNfse>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="#L1">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>c15SCJCOWZcT3Y+KuSM5eW+5OJU=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>DEEaMTwIl/jOiE8eqGkHkK5uTx931GD1Vulq3yGubs/GnToXRD8EW0eV1gId1ODFT3DOjkPQXyDHewFWowhpPsC8lLDJO0BFpbf+KkQBqi8cOnv5dvFq6WrLNKRkjNpB2bu2VPpNUwlmaM6Jtp6bvcbCd3pmLpur/e/NF03ioE1gvyF5jurM8NOTn1W4hpg7oyzhdM4m8GWhHpc91aNJihcF9ax29rpOR/4+SFEPFIKbwQQ7J+2JWUT8OBvfMQVfNyEQ==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509Certificate>CSqGSIb3DQEJARYVbWFyY29zQHBhbGlhcmkuY29tLmJyMB4XDTEyMDUxOTAxMDUyMFoXDTEzMDUxOTAxMDUyMFowgawxLjAsBgNVBAMMJU1hcmNvcyBBbnRvbmlvIFBhbGlhcmk6MDk0Mjc4ODkwMDAxNjIxEzARBgNVBAoMClBhbGlhcmkgVE8oPLg//jr4MSurzluhTtFcJ3jeTNTE9J3pDe5j6J7NmhDNp87qZhDpHCqmIbyXezHGw8aH5gAUqRUT/uQxI3XuwXc6P9jMWKMVRBevtPo9EiWxJbONku85M1JF0qrz31WgQa7/MIIESzCCAzOgAwIBAgIBATALBgkqhkiG9w0BAQswgawxLjAsBgNVBAMMJU1hcmNvcyBBbnRvbmlvIFBhbGlhcmk6MDk0Mjc4ODkwMDAxNjIxEzARBgNVBAoMClBhbGlhcmkgVEkxEzARBgNVBAsMClBhbGlhcmkgVEkxCzAJBgNVBAgMAlBSMQswCQYDVQQGEwJCUjEQMA4GA1UEBwwHTWFyaW5nYTEkMCIG/BBwwGgYIKwYBBQUHAwIGCCsGAQUFBwMBBgRVHSUAMDwGA1UdEQQ1MDOBFW1hcmNvc0BwYWxpYXJpLmNvbS5icoIHUGFsaWFyaYIRVEk6MDk0Mjc4ODkwMDAxNjIwDQYJKoZIhvcNAQELBQADggEBAK70HMckwgnoaG4EvcTcWyjHhfDIi7y/Nf/VQewBrw5wrikVu2Dp6z1Fmw32Uzt3ZsG0KHdKcIxVbqGEPJa3NX5zd2s9FpwSROEz6c7MKlJTFje9EIaoFl3BaZc/7GEsWYTpuR1XWbUOqyKenkVnuZzZbysHCgArp6JDkB8u3YQ8CFeHrVKsLv/gdLYSdnXaj4SW4ojEKE+bkQPJu27typo7gYNdZr9dF17y1jAsqiUE/65sG53MZtaxjryhyGUZ9g8p486ByNsggmHa+FJL0wJUcu71VWhDLDzorhsPfMyqH3S+kO9i3aCkWcRkNWNWr5wrqBp7VG+OH6K4=</X509Certificate>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</SubstituirNfseEnvio>

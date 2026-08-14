@@ -1,0 +1,13 @@
+<ConsultarNfseRpsEnvio>
+	<IdentificacaoRps>
+		<Numero>78</Numero>
+		<Serie>A</Serie>
+		<Tipo>1</Tipo>
+	</IdentificacaoRps>
+	<Prestador>
+		<CpfCnpj>
+			<Cnpj>051.286.218-47</Cnpj>
+		</CpfCnpj>
+		<InscricaoMunicipal>171</InscricaoMunicipal>
+	</Prestador>
+</ConsultarNfseRpsEnvio>

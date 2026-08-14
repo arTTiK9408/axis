@@ -1,0 +1,92 @@
+<!-- 
+XML PARA GERAR NFSE
+
+DADOS CONTRIBUINTE TESTE:
+CNPJ/CPF: 934.954.205-68
+INSCR. MUNICIPAL: 001
+CODIGO IBGE PREFEITURA: 9999999
+NÚMERO DA RPS: 2932
+-->
+
+<GerarNfseEnvio>
+	<Rps>
+		<InfDeclaracaoPrestacaoServico>
+			<Rps>
+				<IdentificacaoRps>
+					<Numero>2932</Numero>
+					<Serie>UNICA</Serie>
+					<Tipo>1</Tipo>
+				</IdentificacaoRps>
+				<DataEmissao>2026-07-18</DataEmissao>
+				<Status>1</Status>
+			</Rps>
+			<Competencia>2026-07-18</Competencia>
+			<Servico>
+				<Valores>
+					<ValorServicos>1000.00</ValorServicos>
+					<ValorDeducoes>0.00</ValorDeducoes>
+					<ValorPis>0.00</ValorPis>
+					<ValorCofins>0.00</ValorCofins>
+					<ValorInss>0.00</ValorInss>
+					<ValorIr>0.00</ValorIr>
+					<ValorCsll>0.00</ValorCsll>
+					<OutrasRetencoes>0.00</OutrasRetencoes>
+					<ValorIss>30.00</ValorIss>
+					<Aliquota>3.0</Aliquota>
+					<DescontoIncondicionado>0.00</DescontoIncondicionado>
+					<DescontoCondicionado>0.00</DescontoCondicionado>
+				</Valores>
+				<IssRetido>2</IssRetido>
+				<ItemListaServico>01.01</ItemListaServico>
+				<CodigoCnae>4399-1/01</CodigoCnae>
+				<CodigoTributacaoMunicipio>01.01</CodigoTributacaoMunicipio>
+				<CodigoNbs>1.0607.00.00</CodigoNbs>
+				<Discriminacao>ANALISE E DESENVOLVIMENTO DE SISTEMAS</Discriminacao>
+				<CodigoMunicipio>9999999</CodigoMunicipio>
+				<CodigoPais>55</CodigoPais>
+				<ExigibilidadeISS>1</ExigibilidadeISS>
+				<MunicipioIncidencia>9999999</MunicipioIncidencia>
+				<NumeroProcesso>1234</NumeroProcesso>
+				<cClassTrib>000001</cClassTrib>
+				<cIndOp>030101</cIndOp>
+				<CST>01</CST>
+				<tpRetPisCofins>2</tpRetPisCofins>
+			</Servico>
+			<Prestador>
+				<CpfCnpj>
+					<Cpf>934.954.205-68</Cpf>
+				</CpfCnpj>
+				<InscricaoMunicipal>001</InscricaoMunicipal>
+			</Prestador>
+			<Tomador>
+				<IdentificacaoTomador>
+					<CpfCnpj>
+						<Cpf>25993705078</Cpf>
+					</CpfCnpj>
+					<InscricaoMunicipal>0011</InscricaoMunicipal>
+				</IdentificacaoTomador>
+				<RazaoSocial>TOMADOR DE TESTE</RazaoSocial>
+				<Endereco>
+					<Endereco>RUA EDUARDO</Endereco>
+					<Numero>30</Numero>
+					<Complemento>CASA 05</Complemento>
+					<Bairro>JD. ANA MARIA</Bairro>
+					<CodigoMunicipio>9999999</CodigoMunicipio>
+					<Uf>SP</Uf>
+					<Cep>06385710</Cep>
+				</Endereco>
+				<Contato>
+					<Telefone>11999999999</Telefone>
+					<Email>tomadorteste@gmail.com</Email>
+				</Contato>
+			</Tomador>
+			<ConstrucaoCivil>
+				<CodigoObra>1</CodigoObra>
+				<Art>1</Art>
+			</ConstrucaoCivil>
+			<RegimeEspecialTributacao>1</RegimeEspecialTributacao>
+			<OptanteSimplesNacional>2</OptanteSimplesNacional>
+			<IncentivoFiscal>2</IncentivoFiscal>
+		</InfDeclaracaoPrestacaoServico>
+	</Rps>
+</GerarNfseEnvio>
