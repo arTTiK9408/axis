@@ -1,5 +1,4 @@
-# README
-## Other resources
+# Resources
 - https://inside.unimake.com.br/uninfe/
 - https://github.com/joaomacedocb/monitor-fiscal
 - https://github.com/vhsponchiado/sefaz-monitor
